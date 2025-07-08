@@ -1,0 +1,71 @@
+
+.app {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+/* Dropdown Styling (TopHeadings & Country selectors) */
+select {
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  background-color: white;
+  color: #333;
+}
+
+body.dark select {
+  background-color: #222;
+  color: #f1f1f1;
+  border: 1px solid #444;
+}
+
+select:hover {
+  border-color: #007bff;
+}
+
+option {
+  background-color: white;
+  color: black;
+}
+
+body.dark option {
+  background-color: #222;
+  color: white;
+}
+
